@@ -1,31 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".StartScreenActivity">
 
     <LinearLayout
-        android:layout_width="289dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="502dp"
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="411dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
             android:gravity="center_horizontal"
             android:text="Coding Quiz"
-
+            android:background="#AAA"
             android:textSize="30dp" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="409dp"
+            android:layout_width="match_parent"
+            android:layout_height="445dp"
             android:src="@drawable/coding" />
+
+
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:text="기본문제"
+            />
+
+        <Button
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text="문제생성" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:text="대결모드" />
+
+        <Button
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text="문제게시판" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:text="즐겨찾기" />
+
+        <Button
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text="환경설정" />
+
+    </LinearLayout>
 
 </LinearLayout>

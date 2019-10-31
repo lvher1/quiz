@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StandardActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="기본문제"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/code" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="C 언어"/>
+
+        <Button
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:text="python" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="Java"/>
+
+        <Button
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="c++" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="C#"/>
+
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="linux" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="기타 언어"/>
+
+        <Button
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="뒤로가기" />
+
+    </LinearLayout>
+
+</LinearLayout>
