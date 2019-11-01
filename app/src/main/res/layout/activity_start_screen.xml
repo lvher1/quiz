@@ -38,12 +38,15 @@
             android:layout_width="208dp"
             android:layout_height="match_parent"
             android:text="기본문제"
+            android:id="@+id/Standard_btn"
             />
 
         <Button
             android:layout_width="210dp"
             android:layout_height="match_parent"
-            android:text="문제생성" />
+            android:text="문제생성"
+            android:id="@+id/Create_btn"
+            />
 
     </LinearLayout>
 
@@ -55,12 +58,16 @@
         <Button
             android:layout_width="208dp"
             android:layout_height="match_parent"
-            android:text="대결모드" />
+            android:text="대결모드"
+            android:id="@+id/Battle_btn"
+            />
 
         <Button
             android:layout_width="210dp"
             android:layout_height="match_parent"
-            android:text="문제게시판" />
+            android:text="문제게시판"
+            android:id="@+id/Board_btn"
+            />
 
     </LinearLayout>
     <LinearLayout
@@ -71,12 +78,16 @@
         <Button
             android:layout_width="208dp"
             android:layout_height="match_parent"
-            android:text="즐겨찾기" />
+            android:text="즐겨찾기"
+            android:id="@+id/Bookmark_btn"
+            />
 
         <Button
             android:layout_width="210dp"
             android:layout_height="match_parent"
-            android:text="환경설정" />
+            android:text="환경설정"
+            android:id="@+id/Setting_btn"
+            />
 
     </LinearLayout>
 
