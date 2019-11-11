@@ -23,6 +23,7 @@ public class StartScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start_screen);
 
 
+        
         Standard_btn =findViewById(R.id.Standard_btn);
         Creative_btn =findViewById(R.id.Create_btn);
         Battle_btn = findViewById(R.id.Battle_btn);
@@ -33,11 +34,44 @@ public class StartScreenActivity extends AppCompatActivity {
         Standard_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StartScreenActivity.this,StandardActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(StartScreenActivity.this,StandardActivity.class);
+                startActivity(intent1);
             }
         });
-
-
+        Creative_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(StartScreenActivity.this,CreativeActivity.class);
+                startActivity(intent2);
+            }
+        });
+        Battle_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(StartScreenActivity.this,BattleActivity.class);
+                startActivity(intent3);
+            }
+        });
+        Board_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4 = new Intent(StartScreenActivity.this,BoardActivity.class);
+                startActivity(intent4);
+            }
+        });
+        Bookmark_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent(StartScreenActivity.this,BookmarkActivity.class);
+                startActivity(intent5);
+            }
+        });
+        Setting_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent6 = new Intent(StartScreenActivity.this,SettingActicity.class);
+                startActivity(intent6);
+            }
+        });
     }
 }
